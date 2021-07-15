@@ -1,6 +1,5 @@
 .about{
   position: fixed; 
-  top: 00.5; 
   left: 0; 
   min-width: 100%;
   min-height: 100%;
@@ -40,24 +39,24 @@
   
 
 }
-.nav{
-background-color: rgb(100, 167, 230);
+.navbar{
+font-size: 15px;
+background-color: rgb(242, 243, 247);
+padding-left: 100px;
+padding-right: 100px;
 }
 
 .package{
 background-color: rgb(115, 151, 218);
 }
+
+
 .about-image {
-  position: absolute;
+position: absolute;
+background-color: black;
   
 }
 
-.todo{
-  size: cover;
- min-height: 1000px;
- opacity:0.9;
-
-}
 
 .btn{
   color: black;
