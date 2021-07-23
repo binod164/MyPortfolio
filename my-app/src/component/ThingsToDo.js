@@ -1,13 +1,10 @@
 import React from 'react'
-import {Carousel} from "react-bootstrap"
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function ThingsToDo() {
   return (
             <div>
-                <Carousel className="about-image">
-                    
-                              <Carousel.Item>
+              
                                 <img className = "todo" src="https://i.pinimg.com/originals/51/5a/75/515a757fbe92d8273442fdaab02dcf04.png"  width="1800" height="900"/>
                                 <h1>VISIT WORLD HERITAGES OF NEPAL</h1><p>Nepal is a multilingual and multicultural country that preserves hundreds of cultural heritages of historical importance. This country known throughout the world as the home of Mount Everest and Lord Buddha is an intricate garland of the various ethnicity and castes of people who have inhabited the land for millennia.
 
@@ -30,10 +27,10 @@ function ThingsToDo() {
                                <p>For more informations click on the link provided below</p>
                                <a href="https://www.mountainmarttreks.com/blog/10-unesco-world-heritage-sites/">Top 10 UNESCO World Heritage Sites In Nepal
                                </a>
-                              </Carousel.Item>
+                             
                             
                     
-                              <Carousel.Item>
+                        
                                 <img className = "todo" src="https://images.squarespace-cdn.com/content/v1/53ecd1bde4b0a6f9524254f8/1468123073306-QVCM88JW71C83O3XO748/ke17ZwdGBToddI8pDm48kJfSPtfOJWis-4HwS2UffyIUqsxRUqqbr1mOJYKfIPR7qPMk0p3IHmLoUpLadMHyzIZ_PIT2Qv94SwsoGTQcqCErN1-8Q_X9ldEXlc8wrw7gInPi9iDjx9w8K4ZfjXt2dnFkZJQFgiGj4-1xI4Lcxm0isKgA55dC5MHRlyyS51k_ZDqXZYzu2fuaodM4POSZ4w/adve.jpg?format=1500w" width="1800" height="900"/>
                               <h1> ADVENTURES IN NEPAL</h1><p>Well known for being one of the most awesome adventure activity locations in Asia, Nepal is a land of high mountains, deep valleys, rushing rivers, and dense jungles. And for an intrepid adventurer, there are few places better in the world for that all-important adrenaline rush. The unique landscape of Nepal, from the high Himalayan mountains to the lowland jungles, allows for a wide range of adventure activities, from trekking to Mount Everest and the Annapurna Range to skydiving and white-water rafting down some of the world’s best rivers. If you love adrenaline sports, the following adventurous things should definitely not to be missed.</p>
                               <ul>
@@ -48,8 +45,7 @@ function ThingsToDo() {
                                <p>For more informations click on the link provided</p>
                                <a href="https://www.adventureinyou.com/nepal/10-insanely-awesome-adventures-in-nepal/"> 10 Insanely Awesome Adventures in Nepal
                               </a>
-                              </Carousel.Item>
-                              <Carousel.Item>
+                            
                                 <img className = "todo" src="https://booking-manager-api.s3.eu-west-1.amazonaws.com/27/blob" width="1800" height="900"/>
                                 <h1>CELEBRATE FESTIVALS OF NEPAL</h1><p>Nepal holidays and festivals concentrate on religious and cultural events on the Hindu and Buddhist calendars and involve traditional rituals, music and dance. Due to the number of diverse ethnic and tribal groups making up the population, the variety of celebrations is fascinating for visitors. Dashain in early September is the most important, surrounded by many other events, and the Tihar Hindu festival of lights is one of the loveliest.
                                 <br></br>
@@ -82,10 +78,7 @@ function ThingsToDo() {
                                 <br></br>
                                 <strong>Tihar</strong><br></br>
                                     Tihar is the Nepalese version of the Hindu Festival of Lights, dedicated to the goddess of wealth, Lakshmi, and is the most dazzling of Nepal’s festivals. It takes place for five days in October, during which every home is lit up with sparkling oil lamps. The second day is known as ‘dogs’ day’ and every four legged friend is adorned with a floral garland, given a delicious meal and worshipped for its protection of the home. Cows are given similar treatment on the third day, as representatives of wealth.</p>
-                               
-                              </Carousel.Item>
-                              
-                </Carousel>
+               
             </div>
         )
     }
