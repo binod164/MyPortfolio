@@ -36,6 +36,9 @@
 }
 .column {
   background-color: rgb(100, 167, 230);
+  float: left;
+  width: 33.33%;
+  padding: 20px;
   
 
 }
@@ -46,19 +49,17 @@ padding-left: 100px;
 padding-right: 100px;
 }
 
-.package{
-background-color: rgb(115, 151, 218);
+.packages{
+  background-color: rgb(100, 167, 230);
+
 }
-
-
 .about-image {
-position: absolute;
-background-color: black;
-  
+position: center;
+
 }
-
-
 .btn{
   color: black;
   background-color:white;
 }
+
+
