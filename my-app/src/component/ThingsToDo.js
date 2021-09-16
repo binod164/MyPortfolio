@@ -1,9 +1,9 @@
 import React from 'react'
 import "bootstrap/dist/css/bootstrap.min.css";
 
-function ThingsToDo() {
-  return (
-            <div>
+        function ThingsToDo() {
+                   return (
+                          <div>
               
                                 <img className = "todo" src="https://i.pinimg.com/originals/51/5a/75/515a757fbe92d8273442fdaab02dcf04.png"  width="1800" height="900"/>
                                 <h1>VISIT WORLD HERITAGES OF NEPAL</h1><p>Nepal is a multilingual and multicultural country that preserves hundreds of cultural heritages of historical importance. This country known throughout the world as the home of Mount Everest and Lord Buddha is an intricate garland of the various ethnicity and castes of people who have inhabited the land for millennia.
@@ -79,9 +79,9 @@ function ThingsToDo() {
                                 <strong>Tihar</strong><br></br>
                                     Tihar is the Nepalese version of the Hindu Festival of Lights, dedicated to the goddess of wealth, Lakshmi, and is the most dazzling of Nepal’s festivals. It takes place for five days in October, during which every home is lit up with sparkling oil lamps. The second day is known as ‘dogs’ day’ and every four legged friend is adorned with a floral garland, given a delicious meal and worshipped for its protection of the home. Cows are given similar treatment on the third day, as representatives of wealth.</p>
                
-            </div>
-        )
-    }
+                        </div>
+                )
+         }
 
 
 
