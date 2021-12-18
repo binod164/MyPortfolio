@@ -1,0 +1,14 @@
+
+
+.ul-trial {
+  list-style: none;
+}
+
+.ul-trial li:before {
+  content: '✓';
+}
+
+#claimButton {
+  background-color: coral;
+  color: #fff;
+}
